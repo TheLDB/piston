@@ -1,5 +1,5 @@
 {
     "language": "typescript",
-    "version": "farcaster",
+    "version": "5.1.0",
     "aliases": ["ts", "node-ts", "tsc", "typescript5", "ts5"]
 }

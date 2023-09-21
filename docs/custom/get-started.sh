@@ -20,8 +20,8 @@ cd ..
 # Start Server
 sudo ./piston start
 # Build Custom Package
-sudo ./piston build-pkg typescript farcaster
+sudo ./piston build-pkg typescript 5.1.0
 # Install Custom Package
-./piston ppman install typescript=farcaster
+./piston ppman install typescript=5.1.0
 # Run Test
-./piston run typescript -l farcaster packages/typescript/farcaster/test.*
+./piston run typescript -l 5.1.0 packages/typescript/5.1.0/test.*
