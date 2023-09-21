@@ -12,5 +12,5 @@
 - Runs a test to ensure it worked
 
 ```sh
-cd ~/piston/docs/custom && sudo chmod +x get-started.sh && sudo ./get-started.sh
+curl -o- https://raw.githubusercontent.com/TheLDB/piston/master/docs/custom/get-started.sh | bash
 ```
